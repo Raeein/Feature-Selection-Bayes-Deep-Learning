@@ -6,6 +6,11 @@ options(warn=-1)
 ##############
 
 # Import libraries
+
+# Need to use a custom path to install the R packages locally cuz the user accounts
+# dont have permission to install globally on the digital alliance servers.
+
+# .libPaths("/home/bagherir/R/x86_64-pc-linux-gnu-library/4.4")
 library(dplyr)
 library(ROCR)
 library(logr)
